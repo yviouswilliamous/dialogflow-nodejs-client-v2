@@ -14,7 +14,7 @@
 
 'use strict';
 
-const gapicConfig = require('https://cdn.rawgit.com/yviouswilliamous/dialogflow-nodejs-client-v2/4d54c351/src/v2/sessions_client_config.json');
+const gapicConfig = require('./sessions_client_config');
 const gax = require('google-gax');
 const merge = require('lodash.merge');
 const path = require('path');
